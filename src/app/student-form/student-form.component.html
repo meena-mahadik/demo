@@ -1,0 +1,144 @@
+<!--<div class="post-data">
+  <input type="text" [(ngModel)]="username">
+  <button (click)="saveCity()">Add City</button>
+</div>
+
+{{cityNameVar}}-->
+<button mat-button (click)="reloadPage()">Submit</button>
+<button mat-button (click)="reloadPage()">reloadPage</button>
+
+<form [formGroup]="locformdata" (ngSubmit)="saveStudentData()" *ngIf="submitted ? '' : 'hide' ">
+  <table>
+    <tr>
+      <td>Name</td>
+
+      <td>
+        <app-input-field (inputFieldValue)="changeData($event)"></app-input-field>
+
+        Value: {{ locformdata.value.studentName }}
+        <!--   Value: {{ userName.value }}-->
+        <!-- {{formData}}
+         <mat-form-field>
+         <input matInput class="form-control" name="studentname" type="text" formControlName="studentName"
+                [ngClass]="submitted && formData.studentName.errors ? 'is-invalid' : '' "/></mat-form-field>
+         <div *ngIf="submitted && formData.studentName.errors" class="invalid-feedback">
+           <div *ngIf="formData.studentName.errors.required">First Name is required</div>
+         </div>-->
+      </td>
+    </tr>
+
+    input Value: {{ locformdata.value.studentName }}
+    <tr>
+      <td colspan="2">
+        <app-checkbox (checkboxValue)="checkCheckBoxvalue($event)"></app-checkbox>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">checkbox Value: {{ locformdata.value.studentName }}</td>
+    </tr>
+    <!-- <tr>
+       <td>Age</td>
+       <td>
+         <mat-form-field>
+           <input matInput name="studenage" type="number" required formControlName="studentAge"
+                  [ngClass]="submitted && formData.studentAge.errors ? 'is-invalid' : '' "/></mat-form-field>
+         <div *ngIf="submitted && formData.studentName.errors" class="invalid-feedback">
+           <div *ngIf="formData.studentAge.errors.required">Age is required</div>
+           <div *ngIf="formData.studentAge.errors.ageRangeValidator">sdsdsdsdsd</div>
+         </div>
+       </td>
+     </tr>
+     <tr>
+       <td>Email ID</td>
+       <td>
+         <mat-form-field>
+           <input matInput name="studentEmail" type="text" required formControlName="studentEmail"
+                  [ngClass]="submitted && formData.studentEmail.errors ? 'is-invalid' : '' "/></mat-form-field>
+         <div *ngIf="submitted && formData.studentEmail.errors" class="invalid-feedback">
+           <div *ngIf="formData.studentEmail.errors.required">Email ID is required</div>
+           <div *ngIf="formData.studentEmail.errors.email">Email must be a valid email address</div>
+         </div>
+       </td>
+     </tr>
+     <tr>
+       <td>Password</td>
+       <td>
+         <mat-form-field>
+           <input matInput name="studentPassword" type="password" required formControlName="studentPassword"
+                  [ngClass]="submitted && formData.studentPassword.errors ? 'is-invalid' : '' "/></mat-form-field>
+         <div *ngIf="submitted && formData.studentPassword.errors" class="invalid-feedback">
+           <div *ngIf="formData.studentPassword.errors.required">Password is required</div>
+           <div *ngIf="formData.studentPassword.errors.minlength">Password must be at least 6 characters</div>
+         </div>
+       </td>
+     </tr>
+     <tr>
+       <td>Gender</td>
+       <td>
+         <mat-form-field>
+           <input matInput name="studentgender" type="text" formControlName="studentGender"/>
+         </mat-form-field>
+       </td>
+     </tr>
+     <tr>
+       <td>
+         <mat-checkbox name="checkBox" name="adminPermission" formControlName="adminPermission"
+                       (change)="checkCheckBoxvalue($event)">Admin Permission
+         </mat-checkbox>
+       </td>
+     </tr>
+     <tr>
+       <td>
+         city
+       </td>
+       <td>
+         <mat-select name="studentCity" type="text" formControlName="studentCity">
+           <mat-option *ngFor="let city of cities" value="{{city.cityName}}">{{city.cityName}}</mat-option>
+         </mat-select>
+       </td>
+     </tr>
+     <tr>
+       <td colspan="2" style="text-align: center">
+         <button type="submit" [disabled]="locformdata.invalid" style="margin-right: 20px;">submit</button>
+         <button (click)="onSubmit()" type="text">Reset</button>
+         <button (click)="getCityList()" type="text">Call JSON</button>
+       </td>
+     </tr>-->
+    <tr>
+      <td colspan="2" style="text-align: center">Form Status: {{ locformdata.status}}</td>
+    </tr>
+  </table>
+</form>
+<div class="map">
+  <p>Lat: {{ this.lat }} Lng: {{ this.lng }}</p>
+  <p *ngIf="selectedMarker">
+    Lat: {{ selectedMarker.lat }} Lng: {{ selectedMarker.lng }}
+  </p>
+  <agm-map
+    [latitude]="latitude"
+    [longitude]="longitude"
+    [zoom]="2"
+    (mapClick)="addMarker($event.coords.lat, $event.coords.lng)"
+  >
+    <agm-marker
+      *ngFor="let marker of markers"
+      [latitude]="marker.lat"
+      [longitude]="marker.lng"
+      [opacity]="marker.alpha"
+      [markerDraggable]="true"
+      (markerClick)="showAddress(marker)"
+      (mouseOver)="showAddress(marker); infoWindow.open()"
+      (mouseOut)="infoWindow.close()"
+    >
+    </agm-marker>
+
+    <agm-info-window #infoWindow [latitude]="lat" [longitude]="lng">
+
+      {{fullAddress}}
+
+    </agm-info-window>
+  </agm-map>
+</div>
+<ng-container *ngIf="submitted">
+  <router-outlet></router-outlet>
+</ng-container>

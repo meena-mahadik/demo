@@ -1,0 +1,40 @@
+
+<nav mat-tab-nav-bar>
+  <a mat-tab-link
+     routerLinkActive="active"
+     routerLink="/form"
+     [routerLinkActiveOptions]="{exact: true}"
+  >
+    Animal Dialog
+  </a>
+  <a mat-tab-link
+     routerLink="/form"
+     routerLinkActive="active"
+     [routerLinkActiveOptions]="{exact: true}"
+    >
+    form
+  </a>
+  <a mat-tab-link
+     routerLink="/report"
+     routerLinkActive="active"
+     [routerLinkActiveOptions]="{exact: true}"
+  >
+    Contact Us
+  </a>
+  <a mat-tab-link
+     routerLink="/login"
+     routerLinkActive="active"
+     [routerLinkActiveOptions]="{exact: true}"
+  >
+    login Form
+  </a>
+  <a mat-tab-link
+     routerLink="/emit" routerLinkActive #rla="routerLinkActive"
+     routerLinkActive="active"
+     [routerLinkActiveOptions]="{exact: true}"
+     [active]="rla.isActive">
+    EventEmitter
+  </a>
+</nav>
+
+<router-outlet></router-outlet>

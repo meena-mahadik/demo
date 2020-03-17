@@ -1,0 +1,49 @@
+<div class="relative custom-popup">
+  <div class="header clearfix">
+    <h2 class="mat-dialog-title">
+      {{title}}
+    </h2>
+  </div>
+  <div class="body">
+    <div class="selected-item">
+      <mat-checkbox class="marT20"  (change)="checkedAll($event)" [(ngModel)]="selectAll"
+      ><span class="font-bold" >Select/Unselect All</span>
+      </mat-checkbox>
+    </div>
+    <div class="subindicate-wrap  checkbox-font-regular">
+      <div class="indicator-warp" *ngFor="let animalLists of animalData; let i = index;">
+        <h2>
+          <mat-checkbox class="font-bold text-uppercase"
+                        [(ngModel)]="animalLists.isChecked"
+                        (change)="domainSelection( animalLists , $event )">
+                      {{animalLists?.domainName}}</mat-checkbox>
+        </h2>
+        <ng-container *ngFor="let focusArea of animalLists.focusAreasDto; let j = index;">
+          <h3>
+            <mat-checkbox class="text-black"
+                          [(ngModel)]="focusArea.isChecked"
+                          (change)="secondLevelChecked(animalLists, focusArea , $event)">
+                          {{focusArea.focusAreaName}} </mat-checkbox>
+          </h3>
+          <ng-container *ngFor="let indicators of focusArea.indicatorDtos; let k = index;">
+            <div class="checkbox-loop">
+              <mat-checkbox class="font-regular clearfix"
+                            [(ngModel)]="indicators.isChecked"
+                            (change)="thirdLevelChecked(animalLists, focusArea)">
+                            {{indicators.indicatorName}} </mat-checkbox>
+            </div>
+          </ng-container>
+        </ng-container>
+      </div>
+    </div>
+  </div>
+  <div class="footer align-center btn-group marT10 btn-group clearfix">
+    <button type="submit" mat-flat-button
+            (click)="save()" class="btn font-semibold bg-dark-green text-white marR15">Save
+    </button>
+    <button type="button" mat-flat-button class="btn font-semibold bg-brown btn-white"
+            (click)="cancel()">CANCEL
+    </button>
+
+  </div>
+</div>

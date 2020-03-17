@@ -1,0 +1,50 @@
+<label class="image-upload-container btn btn-bwm">
+  <span>Select Image</span>
+  <input
+         type="file"
+         (change)="processFile($event)">
+</label>
+<br>
+<br>
+<br>
+<mat-form-field>
+  <mat-label>Favorite food</mat-label>
+  <mat-select multiple (selectionChange)="selectedValue($event)">
+    <mat-option  *ngFor="let food of foods" [value]="food.value">
+      {{food.viewValue}}
+    </mat-option>
+  </mat-select>
+</mat-form-field>
+
+Showing food name :
+<span *ngIf="foodLength < 2"  matTooltip="{{getValue[0]}}" matTooltipPosition="right">{{getValue[0]}}
+
+</span>
+<ng-container  *ngIf="foodLength >= 2">
+  <span matTooltip="{{getValue | slice : 1}}" matTooltipPosition="right"> {{getValue[0]}}(+{{foodLength - 1}})</span>
+</ng-container>
+<!--<span *ngIf="foodLength >= 2" matTooltip="{{getValue}}" matTooltipPosition="right">{{getValue}}</span>-->
+
+
+
+<br>
+<br>
+<br>
+<h2>Enrollments</h2>
+
+
+<router-outlet></router-outlet>
+
+
+
+<div class="" *ngFor="let enrollmentList of enrollmentData">
+  <a
+    routerLink="/enrollments/{{enrollmentList.programEnrollmentId}}/{{enrollmentList.enrollmentStatusName}}"
+    [queryParams]="{allowEdit : '1'}"
+    fragment="loading"
+  > programEnrollmentId {{enrollmentList.programEnrollmentId}} , enrollment StatusName {{enrollmentList.enrollmentStatusName}}</a>
+
+</div>
+<div class="" *ngFor="let user of userList">
+  User Data {{user.userName}}
+</div>

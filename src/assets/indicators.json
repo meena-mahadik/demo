@@ -1,0 +1,883 @@
+{
+  "code": 200,
+  "message": "Get Records Successfully.",
+  "data": [
+    {
+      "domainId": 3,
+      "domainName": "Academic",
+      "focusAreasDto": [
+        {
+          "focusAreaId": 9,
+          "focusAreaName": "Academic",
+          "indicatorDtos": [
+            {
+              "indicatorId": 26,
+              "indicatorName": "Grade-Level Proficient in Math",
+              "domainNumber": "10A",
+              "domain": "Academic",
+              "domainDto": null,
+              "indicatorKeywords": null,
+              "focusArea": "Academic",
+              "focusAreaDto": {
+                "focusAreaId": 9,
+                "focusAreaName": "Academic",
+                "indicatorDtos": null,
+                "domain": {
+                  "domainId": 3,
+                  "domainName": "Academic",
+                  "focusAreasDto": null
+                }
+              },
+              "sortOrder": null,
+              "isPrimary": null,
+              "isSecondary": null,
+              "indicatorStatus": null,
+              "raisedOn": null,
+              "growthPlanId": null,
+              "active": false
+            },
+            {
+              "indicatorId": 27,
+              "indicatorName": "School Attendance",
+              "domainNumber": "11A",
+              "domain": "Academic",
+              "domainDto": null,
+              "indicatorKeywords": null,
+              "focusArea": "Academic",
+              "focusAreaDto": {
+                "focusAreaId": 9,
+                "focusAreaName": "Academic",
+                "indicatorDtos": null,
+                "domain": {
+                  "domainId": 3,
+                  "domainName": "Academic",
+                  "focusAreasDto": null
+                }
+              },
+              "sortOrder": null,
+              "isPrimary": null,
+              "isSecondary": null,
+              "indicatorStatus": null,
+              "raisedOn": null,
+              "growthPlanId": null,
+              "active": false
+            },
+            {
+              "indicatorId": 28,
+              "indicatorName": "Meets High School Expectations in Credit Hours",
+              "domainNumber": "12A",
+              "domain": "Academic",
+              "domainDto": null,
+              "indicatorKeywords": null,
+              "focusArea": "Academic",
+              "focusAreaDto": {
+                "focusAreaId": 9,
+                "focusAreaName": "Academic",
+                "indicatorDtos": null,
+                "domain": {
+                  "domainId": 3,
+                  "domainName": "Academic",
+                  "focusAreasDto": null
+                }
+              },
+              "sortOrder": null,
+              "isPrimary": null,
+              "isSecondary": null,
+              "indicatorStatus": null,
+              "raisedOn": null,
+              "growthPlanId": null,
+              "active": false
+            },
+            {
+              "indicatorId": 29,
+              "indicatorName": "High School GPA Meets Selective College Admission Requirements",
+              "domainNumber": "12B",
+              "domain": "Academic",
+              "domainDto": null,
+              "indicatorKeywords": null,
+              "focusArea": "Academic",
+              "focusAreaDto": {
+                "focusAreaId": 9,
+                "focusAreaName": "Academic",
+                "indicatorDtos": null,
+                "domain": {
+                  "domainId": 3,
+                  "domainName": "Academic",
+                  "focusAreasDto": null
+                }
+              },
+              "sortOrder": null,
+              "isPrimary": null,
+              "isSecondary": null,
+              "indicatorStatus": null,
+              "raisedOn": null,
+              "growthPlanId": null,
+              "active": false
+            },
+            {
+              "indicatorId": 24,
+              "indicatorName": "Grade-Level Proficient in English-Language Arts",
+              "domainNumber": "9A",
+              "domain": "Academic",
+              "domainDto": null,
+              "indicatorKeywords": null,
+              "focusArea": "Academic",
+              "focusAreaDto": {
+                "focusAreaId": 9,
+                "focusAreaName": "Academic",
+                "indicatorDtos": null,
+                "domain": {
+                  "domainId": 3,
+                  "domainName": "Academic",
+                  "focusAreasDto": null
+                }
+              },
+              "sortOrder": null,
+              "isPrimary": null,
+              "isSecondary": null,
+              "indicatorStatus": null,
+              "raisedOn": null,
+              "growthPlanId": null,
+              "active": false
+            },
+            {
+              "indicatorId": 25,
+              "indicatorName": "English Language Acquisition for ELLs",
+              "domainNumber": "9B",
+              "domain": "Academic",
+              "domainDto": null,
+              "indicatorKeywords": null,
+              "focusArea": "Academic",
+              "focusAreaDto": {
+                "focusAreaId": 9,
+                "focusAreaName": "Academic",
+                "indicatorDtos": null,
+                "domain": {
+                  "domainId": 3,
+                  "domainName": "Academic",
+                  "focusAreasDto": null
+                }
+              },
+              "sortOrder": null,
+              "isPrimary": null,
+              "isSecondary": null,
+              "indicatorStatus": null,
+              "raisedOn": null,
+              "growthPlanId": null,
+              "active": false
+            }
+          ],
+          "domain": {
+            "domainId": 3,
+            "domainName": "Academic",
+            "focusAreasDto": null
+          }
+        }
+      ]
+    },
+    {
+      "domainId": 1,
+      "domainName": "Health",
+      "focusAreasDto": [
+        {
+          "focusAreaId": 1,
+          "focusAreaName": "Physical Well-Being",
+          "indicatorDtos": [
+            {
+              "indicatorId": 1,
+              "indicatorName": "Mental Health",
+              "domainNumber": "1A",
+              "domain": "Health",
+              "domainDto": null,
+              "indicatorKeywords": null,
+              "focusArea": "Physical Well-Being",
+              "focusAreaDto": {
+                "focusAreaId": 1,
+                "focusAreaName": "Physical Well-Being",
+                "indicatorDtos": null,
+                "domain": {
+                  "domainId": 1,
+                  "domainName": "Health",
+                  "focusAreasDto": null
+                }
+              },
+              "sortOrder": null,
+              "isPrimary": null,
+              "isSecondary": null,
+              "indicatorStatus": null,
+              "raisedOn": null,
+              "growthPlanId": null,
+              "active": false
+            },
+            {
+              "indicatorId": 2,
+              "indicatorName": "Medical Health",
+              "domainNumber": "1B",
+              "domain": "Health",
+              "domainDto": null,
+              "indicatorKeywords": null,
+              "focusArea": "Physical Well-Being",
+              "focusAreaDto": {
+                "focusAreaId": 1,
+                "focusAreaName": "Physical Well-Being",
+                "indicatorDtos": null,
+                "domain": {
+                  "domainId": 1,
+                  "domainName": "Health",
+                  "focusAreasDto": null
+                }
+              },
+              "sortOrder": null,
+              "isPrimary": null,
+              "isSecondary": null,
+              "indicatorStatus": null,
+              "raisedOn": null,
+              "growthPlanId": null,
+              "active": false
+            },
+            {
+              "indicatorId": 3,
+              "indicatorName": "Dental Health",
+              "domainNumber": "1C",
+              "domain": "Health",
+              "domainDto": null,
+              "indicatorKeywords": null,
+              "focusArea": "Physical Well-Being",
+              "focusAreaDto": {
+                "focusAreaId": 1,
+                "focusAreaName": "Physical Well-Being",
+                "indicatorDtos": null,
+                "domain": {
+                  "domainId": 1,
+                  "domainName": "Health",
+                  "focusAreasDto": null
+                }
+              },
+              "sortOrder": null,
+              "isPrimary": null,
+              "isSecondary": null,
+              "indicatorStatus": null,
+              "raisedOn": null,
+              "growthPlanId": null,
+              "active": false
+            },
+            {
+              "indicatorId": 4,
+              "indicatorName": "Vision",
+              "domainNumber": "1D",
+              "domain": "Health",
+              "domainDto": null,
+              "indicatorKeywords": null,
+              "focusArea": "Physical Well-Being",
+              "focusAreaDto": {
+                "focusAreaId": 1,
+                "focusAreaName": "Physical Well-Being",
+                "indicatorDtos": null,
+                "domain": {
+                  "domainId": 1,
+                  "domainName": "Health",
+                  "focusAreasDto": null
+                }
+              },
+              "sortOrder": null,
+              "isPrimary": null,
+              "isSecondary": null,
+              "indicatorStatus": null,
+              "raisedOn": null,
+              "growthPlanId": null,
+              "active": false
+            },
+            {
+              "indicatorId": 5,
+              "indicatorName": "Hearing Care & Speech",
+              "domainNumber": "1E",
+              "domain": "Health",
+              "domainDto": null,
+              "indicatorKeywords": null,
+              "focusArea": "Physical Well-Being",
+              "focusAreaDto": {
+                "focusAreaId": 1,
+                "focusAreaName": "Physical Well-Being",
+                "indicatorDtos": null,
+                "domain": {
+                  "domainId": 1,
+                  "domainName": "Health",
+                  "focusAreasDto": null
+                }
+              },
+              "sortOrder": null,
+              "isPrimary": null,
+              "isSecondary": null,
+              "indicatorStatus": null,
+              "raisedOn": null,
+              "growthPlanId": null,
+              "active": false
+            },
+            {
+              "indicatorId": 6,
+              "indicatorName": "Access to Adequate Nutritious Foods",
+              "domainNumber": "1F",
+              "domain": "Health",
+              "domainDto": null,
+              "indicatorKeywords": null,
+              "focusArea": "Physical Well-Being",
+              "focusAreaDto": {
+                "focusAreaId": 1,
+                "focusAreaName": "Physical Well-Being",
+                "indicatorDtos": null,
+                "domain": {
+                  "domainId": 1,
+                  "domainName": "Health",
+                  "focusAreasDto": null
+                }
+              },
+              "sortOrder": null,
+              "isPrimary": null,
+              "isSecondary": null,
+              "indicatorStatus": null,
+              "raisedOn": null,
+              "growthPlanId": null,
+              "active": false
+            },
+            {
+              "indicatorId": 7,
+              "indicatorName": "Healthy Body",
+              "domainNumber": "1G",
+              "domain": "Health",
+              "domainDto": null,
+              "indicatorKeywords": null,
+              "focusArea": "Physical Well-Being",
+              "focusAreaDto": {
+                "focusAreaId": 1,
+                "focusAreaName": "Physical Well-Being",
+                "indicatorDtos": null,
+                "domain": {
+                  "domainId": 1,
+                  "domainName": "Health",
+                  "focusAreasDto": null
+                }
+              },
+              "sortOrder": null,
+              "isPrimary": null,
+              "isSecondary": null,
+              "indicatorStatus": null,
+              "raisedOn": null,
+              "growthPlanId": null,
+              "active": false
+            },
+            {
+              "indicatorId": 8,
+              "indicatorName": "Exposure to Adverse Childhood Experiences (ACE or Trauma)",
+              "domainNumber": "1H",
+              "domain": "Health",
+              "domainDto": null,
+              "indicatorKeywords": null,
+              "focusArea": "Physical Well-Being",
+              "focusAreaDto": {
+                "focusAreaId": 1,
+                "focusAreaName": "Physical Well-Being",
+                "indicatorDtos": null,
+                "domain": {
+                  "domainId": 1,
+                  "domainName": "Health",
+                  "focusAreasDto": null
+                }
+              },
+              "sortOrder": null,
+              "isPrimary": null,
+              "isSecondary": null,
+              "indicatorStatus": null,
+              "raisedOn": null,
+              "growthPlanId": null,
+              "active": false
+            }
+          ],
+          "domain": {
+            "domainId": 1,
+            "domainName": "Health",
+            "focusAreasDto": null
+          }
+        }
+      ]
+    },
+    {
+      "domainId": 2,
+      "domainName": "Social-Emotional",
+      "focusAreasDto": [
+        {
+          "focusAreaId": 2,
+          "focusAreaName": "Social Capital ",
+          "indicatorDtos": [
+            {
+              "indicatorId": 9,
+              "indicatorName": "Healthy Relationships with Adults",
+              "domainNumber": "2A",
+              "domain": "Social-Emotional",
+              "domainDto": null,
+              "indicatorKeywords": null,
+              "focusArea": "Social Capital ",
+              "focusAreaDto": {
+                "focusAreaId": 2,
+                "focusAreaName": "Social Capital ",
+                "indicatorDtos": null,
+                "domain": {
+                  "domainId": 2,
+                  "domainName": "Social-Emotional",
+                  "focusAreasDto": null
+                }
+              },
+              "sortOrder": null,
+              "isPrimary": null,
+              "isSecondary": null,
+              "indicatorStatus": null,
+              "raisedOn": null,
+              "growthPlanId": null,
+              "active": false
+            }
+          ],
+          "domain": {
+            "domainId": 2,
+            "domainName": "Social-Emotional",
+            "focusAreasDto": null
+          }
+        },
+        {
+          "focusAreaId": 3,
+          "focusAreaName": "Cultural Capital",
+          "indicatorDtos": [
+            {
+              "indicatorId": 10,
+              "indicatorName": "Exposure to Arts and Sciences",
+              "domainNumber": "3A",
+              "domain": "Social-Emotional",
+              "domainDto": null,
+              "indicatorKeywords": null,
+              "focusArea": "Cultural Capital",
+              "focusAreaDto": {
+                "focusAreaId": 3,
+                "focusAreaName": "Cultural Capital",
+                "indicatorDtos": null,
+                "domain": {
+                  "domainId": 2,
+                  "domainName": "Social-Emotional",
+                  "focusAreasDto": null
+                }
+              },
+              "sortOrder": null,
+              "isPrimary": null,
+              "isSecondary": null,
+              "indicatorStatus": null,
+              "raisedOn": null,
+              "growthPlanId": null,
+              "active": false
+            },
+            {
+              "indicatorId": 11,
+              "indicatorName": "Postsecondary Education",
+              "domainNumber": "3B",
+              "domain": "Social-Emotional",
+              "domainDto": null,
+              "indicatorKeywords": null,
+              "focusArea": "Cultural Capital",
+              "focusAreaDto": {
+                "focusAreaId": 3,
+                "focusAreaName": "Cultural Capital",
+                "indicatorDtos": null,
+                "domain": {
+                  "domainId": 2,
+                  "domainName": "Social-Emotional",
+                  "focusAreasDto": null
+                }
+              },
+              "sortOrder": null,
+              "isPrimary": null,
+              "isSecondary": null,
+              "indicatorStatus": null,
+              "raisedOn": null,
+              "growthPlanId": null,
+              "active": false
+            }
+          ],
+          "domain": {
+            "domainId": 2,
+            "domainName": "Social-Emotional",
+            "focusAreasDto": null
+          }
+        },
+        {
+          "focusAreaId": 4,
+          "focusAreaName": "Social Emotional Learning",
+          "indicatorDtos": [
+            {
+              "indicatorId": 12,
+              "indicatorName": "Self-Awareness and Insight",
+              "domainNumber": "4A",
+              "domain": "Social-Emotional",
+              "domainDto": null,
+              "indicatorKeywords": null,
+              "focusArea": "Social Emotional Learning",
+              "focusAreaDto": {
+                "focusAreaId": 4,
+                "focusAreaName": "Social Emotional Learning",
+                "indicatorDtos": null,
+                "domain": {
+                  "domainId": 2,
+                  "domainName": "Social-Emotional",
+                  "focusAreasDto": null
+                }
+              },
+              "sortOrder": null,
+              "isPrimary": null,
+              "isSecondary": null,
+              "indicatorStatus": null,
+              "raisedOn": null,
+              "growthPlanId": null,
+              "active": false
+            },
+            {
+              "indicatorId": 13,
+              "indicatorName": "Self-Regulation, Self-Management, and Self-Control",
+              "domainNumber": "4B",
+              "domain": "Social-Emotional",
+              "domainDto": null,
+              "indicatorKeywords": null,
+              "focusArea": "Social Emotional Learning",
+              "focusAreaDto": {
+                "focusAreaId": 4,
+                "focusAreaName": "Social Emotional Learning",
+                "indicatorDtos": null,
+                "domain": {
+                  "domainId": 2,
+                  "domainName": "Social-Emotional",
+                  "focusAreasDto": null
+                }
+              },
+              "sortOrder": null,
+              "isPrimary": null,
+              "isSecondary": null,
+              "indicatorStatus": null,
+              "raisedOn": null,
+              "growthPlanId": null,
+              "active": false
+            },
+            {
+              "indicatorId": 14,
+              "indicatorName": "Social and Cultural Awareness",
+              "domainNumber": "4C",
+              "domain": "Social-Emotional",
+              "domainDto": null,
+              "indicatorKeywords": null,
+              "focusArea": "Social Emotional Learning",
+              "focusAreaDto": {
+                "focusAreaId": 4,
+                "focusAreaName": "Social Emotional Learning",
+                "indicatorDtos": null,
+                "domain": {
+                  "domainId": 2,
+                  "domainName": "Social-Emotional",
+                  "focusAreasDto": null
+                }
+              },
+              "sortOrder": null,
+              "isPrimary": null,
+              "isSecondary": null,
+              "indicatorStatus": null,
+              "raisedOn": null,
+              "growthPlanId": null,
+              "active": false
+            },
+            {
+              "indicatorId": 15,
+              "indicatorName": "Positive Relationships and Social Skills",
+              "domainNumber": "4D",
+              "domain": "Social-Emotional",
+              "domainDto": null,
+              "indicatorKeywords": null,
+              "focusArea": "Social Emotional Learning",
+              "focusAreaDto": {
+                "focusAreaId": 4,
+                "focusAreaName": "Social Emotional Learning",
+                "indicatorDtos": null,
+                "domain": {
+                  "domainId": 2,
+                  "domainName": "Social-Emotional",
+                  "focusAreasDto": null
+                }
+              },
+              "sortOrder": null,
+              "isPrimary": null,
+              "isSecondary": null,
+              "indicatorStatus": null,
+              "raisedOn": null,
+              "growthPlanId": null,
+              "active": false
+            },
+            {
+              "indicatorId": 16,
+              "indicatorName": "Healthy Decision-Making",
+              "domainNumber": "4E",
+              "domain": "Social-Emotional",
+              "domainDto": null,
+              "indicatorKeywords": null,
+              "focusArea": "Social Emotional Learning",
+              "focusAreaDto": {
+                "focusAreaId": 4,
+                "focusAreaName": "Social Emotional Learning",
+                "indicatorDtos": null,
+                "domain": {
+                  "domainId": 2,
+                  "domainName": "Social-Emotional",
+                  "focusAreasDto": null
+                }
+              },
+              "sortOrder": null,
+              "isPrimary": null,
+              "isSecondary": null,
+              "indicatorStatus": null,
+              "raisedOn": null,
+              "growthPlanId": null,
+              "active": false
+            },
+            {
+              "indicatorId": 17,
+              "indicatorName": "Positive Outlook",
+              "domainNumber": "4F",
+              "domain": "Social-Emotional",
+              "domainDto": null,
+              "indicatorKeywords": null,
+              "focusArea": "Social Emotional Learning",
+              "focusAreaDto": {
+                "focusAreaId": 4,
+                "focusAreaName": "Social Emotional Learning",
+                "indicatorDtos": null,
+                "domain": {
+                  "domainId": 2,
+                  "domainName": "Social-Emotional",
+                  "focusAreasDto": null
+                }
+              },
+              "sortOrder": null,
+              "isPrimary": null,
+              "isSecondary": null,
+              "indicatorStatus": null,
+              "raisedOn": null,
+              "growthPlanId": null,
+              "active": false
+            }
+          ],
+          "domain": {
+            "domainId": 2,
+            "domainName": "Social-Emotional",
+            "focusAreasDto": null
+          }
+        },
+        {
+          "focusAreaId": 5,
+          "focusAreaName": "Behavior",
+          "indicatorDtos": [
+            {
+              "indicatorId": 18,
+              "indicatorName": "Supports for Prosocial Activities (Positive peer relationships)",
+              "domainNumber": "5A",
+              "domain": "Social-Emotional",
+              "domainDto": null,
+              "indicatorKeywords": null,
+              "focusArea": "Behavior",
+              "focusAreaDto": {
+                "focusAreaId": 5,
+                "focusAreaName": "Behavior",
+                "indicatorDtos": null,
+                "domain": {
+                  "domainId": 2,
+                  "domainName": "Social-Emotional",
+                  "focusAreasDto": null
+                }
+              },
+              "sortOrder": null,
+              "isPrimary": null,
+              "isSecondary": null,
+              "indicatorStatus": null,
+              "raisedOn": null,
+              "growthPlanId": null,
+              "active": false
+            },
+            {
+              "indicatorId": 19,
+              "indicatorName": "Socially-Adaptive Behaviors",
+              "domainNumber": "5B",
+              "domain": "Social-Emotional",
+              "domainDto": null,
+              "indicatorKeywords": null,
+              "focusArea": "Behavior",
+              "focusAreaDto": {
+                "focusAreaId": 5,
+                "focusAreaName": "Behavior",
+                "indicatorDtos": null,
+                "domain": {
+                  "domainId": 2,
+                  "domainName": "Social-Emotional",
+                  "focusAreasDto": null
+                }
+              },
+              "sortOrder": null,
+              "isPrimary": null,
+              "isSecondary": null,
+              "indicatorStatus": null,
+              "raisedOn": null,
+              "growthPlanId": null,
+              "active": false
+            }
+          ],
+          "domain": {
+            "domainId": 2,
+            "domainName": "Social-Emotional",
+            "focusAreasDto": null
+          }
+        },
+        {
+          "focusAreaId": 6,
+          "focusAreaName": "Community Involvement",
+          "indicatorDtos": [
+            {
+              "indicatorId": 20,
+              "indicatorName": "Community Service",
+              "domainNumber": "6A",
+              "domain": "Social-Emotional",
+              "domainDto": null,
+              "indicatorKeywords": null,
+              "focusArea": "Community Involvement",
+              "focusAreaDto": {
+                "focusAreaId": 6,
+                "focusAreaName": "Community Involvement",
+                "indicatorDtos": null,
+                "domain": {
+                  "domainId": 2,
+                  "domainName": "Social-Emotional",
+                  "focusAreasDto": null
+                }
+              },
+              "sortOrder": null,
+              "isPrimary": null,
+              "isSecondary": null,
+              "indicatorStatus": null,
+              "raisedOn": null,
+              "growthPlanId": null,
+              "active": false
+            }
+          ],
+          "domain": {
+            "domainId": 2,
+            "domainName": "Social-Emotional",
+            "focusAreasDto": null
+          }
+        },
+        {
+          "focusAreaId": 7,
+          "focusAreaName": "Positive Peer Relationships",
+          "indicatorDtos": [
+            {
+              "indicatorId": 21,
+              "indicatorName": "Positive Peer Associations",
+              "domainNumber": "7A",
+              "domain": "Social-Emotional",
+              "domainDto": null,
+              "indicatorKeywords": [
+                {
+                  "indicatorKeywordsId": 41,
+                  "indicatorKeywordName": "Behaviour",
+                  "indicatorKeywordDesc": null
+                }
+              ],
+              "focusArea": "Positive Peer Relationships",
+              "focusAreaDto": {
+                "focusAreaId": 7,
+                "focusAreaName": "Positive Peer Relationships",
+                "indicatorDtos": null,
+                "domain": {
+                  "domainId": 2,
+                  "domainName": "Social-Emotional",
+                  "focusAreasDto": null
+                }
+              },
+              "sortOrder": null,
+              "isPrimary": null,
+              "isSecondary": null,
+              "indicatorStatus": null,
+              "raisedOn": null,
+              "growthPlanId": null,
+              "active": false
+            }
+          ],
+          "domain": {
+            "domainId": 2,
+            "domainName": "Social-Emotional",
+            "focusAreasDto": null
+          }
+        },
+        {
+          "focusAreaId": 8,
+          "focusAreaName": "Home Supports",
+          "indicatorDtos": [
+            {
+              "indicatorId": 22,
+              "indicatorName": "Learning Supports at Home",
+              "domainNumber": "8A",
+              "domain": "Social-Emotional",
+              "domainDto": null,
+              "indicatorKeywords": null,
+              "focusArea": "Home Supports",
+              "focusAreaDto": {
+                "focusAreaId": 8,
+                "focusAreaName": "Home Supports",
+                "indicatorDtos": null,
+                "domain": {
+                  "domainId": 2,
+                  "domainName": "Social-Emotional",
+                  "focusAreasDto": null
+                }
+              },
+              "sortOrder": null,
+              "isPrimary": null,
+              "isSecondary": null,
+              "indicatorStatus": null,
+              "raisedOn": null,
+              "growthPlanId": null,
+              "active": false
+            },
+            {
+              "indicatorId": 23,
+              "indicatorName": "Stability and Support for Everyday Needs ",
+              "domainNumber": "8B",
+              "domain": "Social-Emotional",
+              "domainDto": null,
+              "indicatorKeywords": null,
+              "focusArea": "Home Supports",
+              "focusAreaDto": {
+                "focusAreaId": 8,
+                "focusAreaName": "Home Supports",
+                "indicatorDtos": null,
+                "domain": {
+                  "domainId": 2,
+                  "domainName": "Social-Emotional",
+                  "focusAreasDto": null
+                }
+              },
+              "sortOrder": null,
+              "isPrimary": null,
+              "isSecondary": null,
+              "indicatorStatus": null,
+              "raisedOn": null,
+              "growthPlanId": null,
+              "active": false
+            }
+          ],
+          "domain": {
+            "domainId": 2,
+            "domainName": "Social-Emotional",
+            "focusAreasDto": null
+          }
+        }
+      ]
+    }
+  ]
+}

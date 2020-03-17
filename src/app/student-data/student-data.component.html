@@ -1,0 +1,29 @@
+<table>
+  <tr>
+    <th>S. NO</th>
+    <th>Student Name</th>
+    <th>Student Age</th>
+    <th>Student Id</th>
+    <td>City</td>
+    <th>Student Gender</th>
+    <th>Edit Permission</th>
+    <th>Edit</th>
+  </tr>
+  <tr *ngFor="let student of data; let i = index">
+    <td>{{i+1}}</td>
+    <td>{{student.studentName}}</td>
+    <td>{{student.studentAge}}</td>
+    <td>{{student.studentEmail}}</td>
+    <td>{{student.studentGender}}</td>
+    <td>{{student.studentCity}}</td>
+    <td>{{student.adminPermission}}</td>
+    <th>
+      <button mat-raised-button (click)="openDialog(student, i)">Edit</button>
+      <button mat-raised-button (click)="deleteRow()">Delete</button>
+      <button mat-raised-button (click)="gotoReport(student)">Report</button>
+    </th>
+  </tr>
+</table>
+
+
+
